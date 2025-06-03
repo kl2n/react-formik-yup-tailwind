@@ -18,11 +18,11 @@ export default function Welcome({formMode}) {
             <div className="p-4 sm:p-6 text-center space-y-6">
                 <h2 className="text-2xl font-semibold">Welcome</h2>
                 <p className="text-xl">A simple signup form built with React.js, using Formik library and styled with Tailwind CSS.</p>
-                <div>
+                <div className="text-lg">
                     {message}
                     &nbsp;
                     <Link href={targetRoute}
-                          className="font-medium text-[var(--theme-color)] hover:text-[var(--theme-hover)]
+                          className="font-medium text-[var(--theme-hover)]
                                      focus-visible:outline focus-visible:outline-gray-500
                                      focus-visible:-outline-offset-2">
                         {routeText}
