@@ -1,9 +1,6 @@
 "use client";
-
-import Registration from "@/app/components/Registration/Registration";
+import {redirect} from "next/navigation";
 
 export default function Home() {
-  return (
-    <Registration />
-  );
+    redirect('/signup');
 }
